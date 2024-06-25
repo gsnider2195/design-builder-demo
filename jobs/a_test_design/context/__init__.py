@@ -12,5 +12,5 @@ class InitialDesignContext(Context):
     def validate_something(self):
         # testing, raise DesignValidationError
         logger.debug("RUNNING VALIDATION")
-        # print(this_is_a_syntax_error)
+        print(this_is_a_syntax_error)
         pass
