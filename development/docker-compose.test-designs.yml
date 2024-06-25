@@ -1,8 +1,0 @@
----
-services:
-  nautobot:
-    volumes:
-      - "../nautobot_design_builder/tests/designs:/opt/nautobot/jobs"
-  worker:
-    volumes:
-      - "../nautobot_design_builder/tests/designs:/opt/nautobot/jobs"
