@@ -10,6 +10,7 @@ class InitialDesign(DesignJob):
     """Initialize the database with default values needed by the core site designs."""
 
     routers_per_site = IntegerVar(min_value=1, max_value=6)
+    variable2 = IntegerVar(min_value=1, max_value=2)
 
     class Meta:
         """Metadata needed to implement the backbone site design."""
