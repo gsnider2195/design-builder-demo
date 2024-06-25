@@ -8,5 +8,4 @@ class InitialDesignContext(Context):
 
     def validate_something(self):
         # testing, raise DesignValidationError
-        # raise DesignValidationError("test failure")
-        pass
+        raise DesignValidationError("test failure")
